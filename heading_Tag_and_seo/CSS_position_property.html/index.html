@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="bikes.css">>
+</head>
+<body>
+
+
+    <h1>This are the top models of bikes:</h1>
+
+    <label for="bike">Choose your favourite bike:</label>
+    <select name="Vechile" id="bike" onchange="showBikeImage()">
+        <option value="">--Select a bike--</option>
+        <option value="david-putra">DAVID PUTRA</option>
+        <option value="bullet">BULLET</option>
+        <option value="java">JAVA</option>
+        <option value="gt-650">GT-650</option>
+    </select>
+    <div class="container">
+        <img 
+            id="david-putra"
+            src="pexels-gijs-coolen-1325695-2549941.jpg"
+            alt="This is a poster 1"
+            width="430px"
+            height="350px"
+            style="display:none;"
+        />
+        <img 
+            id="bullet"
+            src="pexels-giorgio-de-angelis-482403-1191109.jpg"
+            alt="This is a poster 2"
+            width="450px"
+            height="355px"
+            style="display:none;"
+        />
+        <img
+            id="java"
+            src="pexels-nishantaneja-2393835.jpg"
+            alt="This is a poster 3"
+            width="350px"
+            height="300px"
+            style="display:none;"
+        />
+        <img
+            id="gt-650"
+            src="pexels-pragyanbezbo-1715184.jpg"
+            alt="This is a poster 4"
+            width="400px"
+            height="350px"
+            style="display:none;"
+        />
+    </div>
+    <script>
+    function showBikeImage() {
+        const bikes = ["david-putra", "bullet", "java", "gt-650"];
+        bikes.forEach(id => {
+            document.getElementById(id).style.display = "none";
+        });
+        const selected = document.getElementById("bike").value;
+        if (bikes.includes(selected)) {
+            document.getElementById(selected).style.display = "block";
+        }
+    }
+    </script>
+
+     </img>
+     </div>
+    
+</body>
+</html>
