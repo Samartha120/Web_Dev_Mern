@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    
+
+}
+.item
+{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    margin: 2px;
+    float:right;
+}
+.item1{
+   float: right;
+}
+
+.item2{
+   float: right;
+}
+
+.item3{
+    float: right;
+}
+
+
+
