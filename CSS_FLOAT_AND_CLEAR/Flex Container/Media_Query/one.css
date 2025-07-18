@@ -1,0 +1,40 @@
+.container{
+             border: 5px solid black;
+             background-color: beige;
+             margin: 2px;
+             padding: 2px;
+         
+
+          }
+          .box{
+            border: 2px solid black;
+            /* background-color: green; */
+            margin: 2px;
+            padding: 2px;
+            height: 200px;
+            width:200px;
+          }
+          #box1{
+            background-color:orange;
+          }
+          #box2{
+            background-color: blue;
+          }
+          #box3{
+            background-color: blueviolet;
+          }
+          #box4{
+            background-color: brown;
+          }
+          @media(min-width=600px){
+            .container{
+                background-color: aqua;
+                flex-direction: row;
+            }
+          }
+          @media(max-width=300px){
+            .container{
+                background-color: blueviolet;
+                flex-direction: column;
+            }
+          }

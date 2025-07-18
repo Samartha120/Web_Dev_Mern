@@ -1,0 +1,11 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+@media (min-width=500px) and (max-width=800px) {
+   .box{
+     background-color: violet;
+   }
+}
