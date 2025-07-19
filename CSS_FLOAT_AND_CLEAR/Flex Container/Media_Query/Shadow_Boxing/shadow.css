@@ -1,0 +1,35 @@
+.container{
+    background-color: beige;
+    border: 2px solid black;
+    height: 650px;
+    /* width: 350px; */
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: aqua;
+    border: 2px solid blue ;
+    height: 450px;
+    width: 330px;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 15px 10px skyblue;    */
+    /* box-shadow:-25px 15px lightgrey;                   normal shadow with x axis and y axix */
+    /* box-shadow: -30px  -20px lightgrey ; */
+    /* box-shadow: 20px 25px 5px brown;     shadow with radius  */
+    /* box-shadow: 20px 30px 10px 100px rgba(15, 50, 120, 0.9); shadow with radius blur */
+    /* box-shadow: inset 20px 15px 20px red;  shadow inserted inside the box */
+    box-shadow:20px 25px brown , 30px 10px purple; 
+    
+
+}
+img{
+    height: 150px;
+    padding:3px;
+    margin: 50px;
+}
+h2{
+    border: 5px solid black;
+}
