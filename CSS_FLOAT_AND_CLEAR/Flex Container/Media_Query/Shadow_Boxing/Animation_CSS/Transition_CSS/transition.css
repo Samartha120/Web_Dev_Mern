@@ -1,0 +1,19 @@
+.box{
+    height: 400px;
+    width: 400px;
+
+    background-color: beige;
+    border: 2px solid black;
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+    /* transition-property: width; */
+    transition-property: height;
+    transition-delay: 2s;
+    transition-property:all;
+}
+.box:hover{
+    /* width: 800px; */
+    height: 650px;
+    width: 1000px;
+    background-color: brown;
+}
