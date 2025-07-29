@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    height: 190vh;
+    width: 100vw;
+    /* min-height: 900px; */
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 45px;
+
+}
+.card{
+    height: 850px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+}
+.card img{
+    width: 80%;
+    height: 40%;
+    border-top-left-radius:20px ;
+    border-top-right-radius:35px;
+}
+.card h1{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.card p{
+    font-size: 1.1rem;
+
+}
+.textBox{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+#AmountBox{
+    height: 10%;
+    width: 88%;
+    background-color:  skyblue;
+    border-radius: 10px;
+}
+#PayButton{
+    width: 85%;
+    height: 35%;
+    background-color: olive;
+
+}    
