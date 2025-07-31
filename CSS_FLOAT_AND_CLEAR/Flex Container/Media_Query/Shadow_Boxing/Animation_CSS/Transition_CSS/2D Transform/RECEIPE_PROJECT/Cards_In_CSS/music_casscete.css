@@ -6,7 +6,7 @@
 .container{
     height:100vh;
     width: 100vw ;
-    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     gap: 25px;
 }
 .musicCasscede{
-    height: 600px;
+    height: 660px;
     width: 400px;
     border-radius: 20px;
     background-color: white;
@@ -22,6 +22,7 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
 }
 .musicCasscede img{
     width: 100%;
@@ -56,6 +57,7 @@
    /* width: fit-content; */
    height: 100%;
    display: flex;
+   flex-direction: row;
 align-items: center;
    gap: 15px;
 
@@ -81,4 +83,7 @@ align-items: center;
     text-decoration: none;
     color: rgb(59, 49, 49);
     font-weight: bolder;
+}
+.rightBox a{
+    font-size: 1.3rem;
 }

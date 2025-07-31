@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+
+}
+.AdvancedCard{
+    background-color: white;
+    height: 520px;
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+ 
+
+}
+.leftBox{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: purple;
+
+}
+.leftBox h1{
+     padding: 35px;
+     font-size: 2rem;
+     font-weight: bolder;
+     color: white;
+     gap: 45px;
+}
+.leftBox p{
+    font-size: 1.2rem;
+    color: white;
+    padding: 25px;
+}
+.rightBox img{
+    height: 520px;
+      width: 450px;
+}
+.statBox{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* equal spacing */
+    align-items: center;
+    padding:40px;
+    gap: 80px;
+
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Comments h2{
+     font-size: 1.5rem;
+     font-weight: bolder;
+     color: white;
+     margin-bottom: 8px;
+     padding-right: 10px;
+}
+.Comments p{
+    font-size: 1rem;
+    color:white;
+    padding-right: 15px;
+}
+.PaidUsers h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+
+}
+.PaidUsers p {
+  font-size: 1rem;
+  color:white;
+}
+.Views h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+
+
+}
+.Views p{
+    font-size: 1rem;
+    color: white;
+}
+/* @media (max-width:900px) {
+    .AdvancedCard{
+        flex-direction: column;
+        width: 95vw;
+        height: auto;
+    }
+    .rightBox img {
+        width: 100%;
+        height: auto;
+    }
+    .leftBox, .rightBox {
+        width: 100%;
+    }
+    .statBox {
+        flex-direction: column;
+        gap: 18px;
+    }
+} */
